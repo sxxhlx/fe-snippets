@@ -1,0 +1,22 @@
+{
+  "name": "fe-snippets",
+  "displayName": "前端常用代码片段",
+  "description": "snippets for front-end developers",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "bi6mhq",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "icon": "icons/favicon-origin.png"
+}

@@ -1,0 +1,75 @@
+{
+	"Fast Console": {
+		"scope": "javascript,typescript,typescriptreact,javascriptreact",
+		"prefix": "cl",
+		"body": [
+			"console.log('=======$1=========',$1);"
+		],
+		"description": "Fast way to type console.log"
+	},
+    "New Page": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "np",
+		"body": [
+      "import React from 'react';",
+      "",
+      "",
+      "const $1:React.FC<{}> = (props)=>{",
+      "",
+      "}",
+      "",
+      "",
+      "export default $1;",
+		],
+		"description": "Log output to console"
+  },
+  "New Element": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "ne",
+		"body": [
+      "export const $1 = styled.div`$2`;",
+		],
+		"description": "Create new element"
+  },
+  "New Interface": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "ni",
+		"body": [
+      "export interface $1 {",
+      "$2",
+      "};",
+		],
+		"description": "Create new element"
+  },
+  "New Request": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "nr",
+		"body": [
+      "export const $1 = ($2):Promise<any> => {",
+      " return post(APIs.$3$4)",
+      "};",
+		],
+		"description": "Create new element"
+  },
+  "Import Module": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "im",
+		"body": [
+      "import $2 from '$1';",
+		],
+		"description": "Export Default in index.ts"
+  },
+  "Export Default": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+		"prefix": "ed",
+		"body": [
+      "export { default } from '$1';",
+		],
+		"description": "Export Default in index.ts"
+  },
+  "useEffect": {
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "prefix": "ue",
+    "body": "useEffect(()=>{\n  $0\n},[])"
+  }
+}

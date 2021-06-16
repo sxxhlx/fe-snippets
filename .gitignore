@@ -1,0 +1,8 @@
+
+.vscode 
+
+*.vsix
+
+node_nodules
+
+.DS_store
