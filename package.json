@@ -2,7 +2,7 @@
   "name": "fe-snippets",
   "displayName": "前端常用代码片段",
   "description": "snippets for front-end developers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.45.0"
   },
