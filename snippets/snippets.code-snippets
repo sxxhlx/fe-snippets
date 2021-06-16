@@ -3,7 +3,7 @@
 		"scope": "javascript,typescript,typescriptreact,javascriptreact",
 		"prefix": "cl",
 		"body": [
-			"console.log('=======$1=========',$1);"
+			"console.log('=======$1=========',$0);"
 		],
 		"description": "Fast way to type console.log"
 	},

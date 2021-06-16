@@ -8,6 +8,24 @@
 
 此插件提供了前端开发尤其是React开发过程中的常用片段。
 
+### SNIPPETS 列表
+
+- im Import Module
+- cl Fast Console
+- np New Page
+- ne New Element
+- ni New Interface 
+- nr New Request 与 @zycfc/zycfc-request 包耦合较强
+- ed Export Default
+- ue useEffect 
+
+### 使用方法
+
+安装插件后，或重启 vscode ，或直接在新打开的窗口中使用。
+打开后缀为 .js .jsx .ts .tsx 的文件，输入上面列表中的快捷键后按 ```TAB``` 键插入代码片段。在代码片段中可以继续按 ```TAB``` 键切换光标位置。如图所示。
+
+![DEMO](https://blog.bear4olay.com/images/fe-snippets-demo.gif)
+
 
 ## Release Notes
 
@@ -21,11 +39,11 @@
 
 ### 0.0.1
 
-项目初始化
+- 项目初始化
 
 
 
 -----------------------------------------------------------------------------------------------------------
 
 
-**Enjoy!**
+**Enjoy!** :octocat:
